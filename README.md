@@ -1,6 +1,13 @@
-# Welcome to GitHub
+#Project INT    
 
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
+INT - learn intergter with a language twist!    
+Number has been essential part of language learning and yet is has been so overlooked by those who study foreign 
+language. As Malcolm Gladwell has said in his bestselling book that the reason why certain countries in Asia is 
+better at math is because the way language was structured. This App seeks to explain how numbers are leanred and 
+comprehended in different language while doing the learning
+Int stands for integer, or simply put - a number. The special part of this project is the fact that this App will 
+teach you how to think outside of the box in learning a new language and using unique method to memorize the 
+integers/number pronouciation. 
 
 ## Repositories
 
