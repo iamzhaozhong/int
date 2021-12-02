@@ -28,7 +28,18 @@ better visually!
 
 ## Airtable
 
+API key is generated, hidden at the moment
+
 ```
+npm install --save airtable
+
+var Airtable = require('airtable');
+Airtable.configure({
+    endpointUrl: 'https://api.airtable.com',
+    apiKey: 'YOUR_API_KEY'
+});
+var base = Airtable.base('appocRJazUYVcVl1e');
+
 
 ```
 
