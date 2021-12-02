@@ -1,6 +1,6 @@
-#Project INT
+# Project INT
 
-##Description of the project
+## Description of the project
 
 INT - integer, more than just simple numbers.
 
