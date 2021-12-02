@@ -1,5 +1,12 @@
 # Project INT
 
+## Important Links
+|description| Links |
+|---|-------|
+|Hosted Page|Work in Progress|
+|Github Repo|https://github.com/iamzhaozhong/int|
+|JIRA|https://zhaozhong.atlassian.net/jira/software/projects/P2/boards/2/roadmap|
+
 ## Description of the project
 
 INT - integer, more than just simple numbers.
