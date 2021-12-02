@@ -1,12 +1,13 @@
-#Project INT  
+#Project INT
+
 ##introduction
 
-INT - more than just numbers.
+INT - more than just simple numbers.
 
 Project Description -
 For those who have experience with foreign languages, learning numbers/integers is an essential part of the journey. Even with our mother tongue, the way we learned about the numbers is not less important. The application INT seeks to capture something that is easily overlooked -- different languages has different ways to learn about numbers.
 
-The app will introduce different ways to learn about numbers, in four different languages. There will be Chinese, Japanese, French, English, and Spanish. We will be starting from zero and teach the end-user how to pronounce more complex numbers. By using the app users will notice the difference where we learn about integers.
+The app will introduce/reintroduce different ways to learn about numbers, in four different languages -- Chinese, Japanese, French, English, and Spanish. We will be starting from zero and teach the end-user how to pronounce more complex numbers. By using the app users will notice the difference where we learn about integers.
 
 ## The wireframe
 
