@@ -1,15 +1,14 @@
-#Project INT    
+#Project INT  
+##introduction
 
-INT - learn intergter with a language twist!    
-Number has been essential part of language learning and yet is has been so overlooked by those who study foreign 
-language. As Malcolm Gladwell has said in his bestselling book that the reason why certain countries in Asia is 
-better at math is because the way language was structured. This App seeks to explain how numbers are leanred and 
-comprehended in different language while doing the learning
-Int stands for integer, or simply put - a number. The special part of this project is the fact that this App will 
-teach you how to think outside of the box in learning a new language and using unique method to memorize the 
-integers/number pronouciation. 
+INT - more than just numbers.
 
-## Repositories
+Project Description -
+For those who have experience with foreign languages, learning numbers/integers is an essential part of the journey. Even with our mother tongue, the way we learned about the numbers is not less important. The application INT seeks to capture something that is easily overlooked -- different languages has different ways to learn about numbers.
+
+The app will introduce different ways to learn about numbers, in four different languages. There will be Chinese, Japanese, French, English, and Spanish. We will be starting from zero and teach the end-user how to pronounce more complex numbers. By using the app users will notice the difference where we learn about integers.
+
+## The wireframe
 
 Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
 
@@ -31,7 +30,7 @@ You are currently viewing your project's **README** file. **_README_** files are
 
 We've already set-up a GitHub Pages website for you, based on your personal username. This repository is called `hello-world`, but you'll rename it to: `username.github.io`, to match your website's URL address. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
 
-Let's get started! To update this repository’s name, click the `Settings` tab on this page. This will take you to your repository’s settings page. 
+Let's get started! To update this repository’s name, click the `Settings` tab on this page. This will take you to your repository’s settings page.
 
 ![repo-settings-image](https://user-images.githubusercontent.com/18093541/63130482-99e6ad80-bf88-11e9-99a1-d3cf1660b47e.png)
 
@@ -63,7 +62,6 @@ To add your introduction, copy our template and click the edit pencil icon at th
 
 <img width="997" alt="edit-this-file" src="https://user-images.githubusercontent.com/18093541/63131820-0794d880-bf8d-11e9-8b3d-c096355e9389.png">
 
-
 Delete this placeholder line:
 
 ```
@@ -74,9 +72,7 @@ Then, paste the template to line 15 and fill in the blanks.
 
 <img width="1032" alt="edit-githuboctocat-index" src="https://user-images.githubusercontent.com/18093541/63132339-c3a2d300-bf8e-11e9-8222-59c2702f6c42.png">
 
-
 When you’re done, scroll down to the `Commit changes` section near the bottom of the edit page. Add a short message explaining your change, like "Add my introduction", then click `Commit changes`.
-
 
 <img width="1030" alt="add-my-username" src="https://user-images.githubusercontent.com/18093541/63131801-efbd5480-bf8c-11e9-9806-89273f027d16.png">
 
@@ -98,11 +94,11 @@ Start by downloading GitHub Desktop if you haven’t already done so, and instal
 
 Let’s make sure you have a text editor on your computer - this is what you'll use to actually make changes to your files. If you already know you have an editor, then skip to the next step. Otherwise, download and install either [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io/) and restart GitHub Desktop before proceeding to the next step.
 
-Let’s make a change to your GitHub Pages site, just like you did on GitHub.com, except this time we’re going to do it all from your computer. From GitHub Desktop, click the “Open in…” button in the middle of the screen to “open the repository in your external editor” that you just downloaded. 
+Let’s make a change to your GitHub Pages site, just like you did on GitHub.com, except this time we’re going to do it all from your computer. From GitHub Desktop, click the “Open in…” button in the middle of the screen to “open the repository in your external editor” that you just downloaded.
 
 ![Open-in-editor](https://user-images.githubusercontent.com/721500/63188833-82fb9600-c030-11e9-8777-a67c1713d59f.png)
 
-In the left sidebar, click the `index.html` file to open it, and go ahead and add another line. Maybe, “Building websites is fun! You should try it too!” or whatever you want to add. 
+In the left sidebar, click the `index.html` file to open it, and go ahead and add another line. Maybe, “Building websites is fun! You should try it too!” or whatever you want to add.
 
 ![Make-changes](https://user-images.githubusercontent.com/721500/63188832-82fb9600-c030-11e9-9f7b-7d15385a16f0.png)
 
@@ -118,7 +114,7 @@ Now you can commit your changes by typing a message in the `Summary` box at the 
 
 ### Push your changes to GitHub.com
 
-One of the great things about working on things on your computer is that you get to control when other people see them. Now let’s push your commit to GitHub.com as well so it’s saved there and you can publish it to your site. Click the “Push origin” button to push your commit to GitHub.com. 
+One of the great things about working on things on your computer is that you get to control when other people see them. Now let’s push your commit to GitHub.com as well so it’s saved there and you can publish it to your site. Click the “Push origin” button to push your commit to GitHub.com.
 
 ![Push-to-GitHub](https://user-images.githubusercontent.com/721500/63188834-82fb9600-c030-11e9-9d8e-6c6ed6d48504.png)
 
