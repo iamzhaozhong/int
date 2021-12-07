@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 //set up the airtable
 const Airtable = require('airtable');
 const base = new Airtable({
@@ -8,7 +6,7 @@ const base = new Airtable({
 const table = base(process.env.AIRTABLE_TABLE_INVENTORY);
 
 //useState
-const [records, setRecords] = useState(null);
+
 
 //reduce the size of the entire record
 const sortedRecord = (records) => {

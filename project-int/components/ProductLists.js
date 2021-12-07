@@ -11,8 +11,7 @@ export default function ProductLists ({ products }) {
 						<a key={product.id} href={product.href} className="group">
 							<div className="w-full aspect-w-1 aspect-h-1 rounded-lg overflow-hidden sm:aspect-w-2 sm:aspect-h-3">
 								<img
-									src={product.imageSrc}
-									alt={product.imageAlt}
+									src={product.image}
 									className="w-full h-full object-center object-cover group-hover:opacity-75"
 								/>
 							</div>

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { suggestItem } from "../pages/api/utility/Airtable";
+import { suggestItem } from "../../pages/api/utility/Airtable";
 
 export default function AddNew () {
 	const [name, setName] = useState('');
