@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="538d5b77-0b94-4472-8803-e52d2e558418" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/ProductLists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/individualProducts/IndividualProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/individualProducts/[pid].js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tailwind/AddNew.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/getItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/removeProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/suggestItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/testPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/utility/Airtable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designComponents/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/tailwind/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designComponents/AppNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/tailwind/AppNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designComponents/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/tailwind/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designComponents/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/tailwind/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functionalComponents/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functionalComponents/MakeRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="21xcFUiCDxqPOSR8c33EgMuioNe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.env.local" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/tailwind" />
+      <recent name="$PROJECT_DIR$/components/individualProducts" />
+      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$/pages/api/utility" />
+      <recent name="$PROJECT_DIR$/pages/api" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="538d5b77-0b94-4472-8803-e52d2e558418" name="Changes" comment="" />
+      <created>1638886082245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638886082245</updated>
+      <workItem from="1638886090373" duration="556000" />
+      <workItem from="1638886664432" duration="5729000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
