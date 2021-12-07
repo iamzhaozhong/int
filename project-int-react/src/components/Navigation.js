@@ -4,7 +4,7 @@ export default function Navigation() {
 	return (
 		<div>
 			<Link to="/">Home</Link>
-			<Link to="/create">Create Recipe</Link>
+			<Link to="/new">Suggest A New Product!</Link>
 		</div>
 	);
 }
