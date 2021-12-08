@@ -1,16 +1,14 @@
 import { Link } from "react-router-dom";
 //works
-export default function ProductLink({ products }) {
+export default function ProductLink(props) {
 	return (
 		<div>
-			{products.map((item) => (
+			{props.products.map((item) => (
 				<>
-					<Link key={item.id} to={`/item/${item.id}`}>
-						{item.fields.Name}
+					<Link key={item.id} to={`/products/${item.id}`}>
+						{item.fields.name}
 					</Link>
-					<h1>ProductLinks work</h1>
 				</>
-
 			))}
 		</div>
 	);
