@@ -4,7 +4,7 @@
 
 | description | Links                                                                      |
 | ----------- | -------------------------------------------------------------------------- |
-| Hosted Page | Work in Progress                                                           |
+| Hosted Page | https://vigorous-ritchie-9d5662.netlify.app/                                                         |
 | Github Repo | https://github.com/iamzhaozhong/int                                        |
 | JIRA        | https://zhaozhong.atlassian.net/jira/software/projects/P2/boards/2/roadmap |
 
