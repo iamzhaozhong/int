@@ -8,6 +8,7 @@ import IndividualProduct from './components/InividualProduct';
 import ProductLink from './components/ProductLink';
 import SuggestProduct from "./components/SuggestProduct";
 import HeroSection from './pages/HeroSection';
+import AboutPage from './pages/AboutPage';
 
 function App() {
 	const [allProducts, setAllProducts] = useState([]);
@@ -52,6 +53,12 @@ function App() {
 						/>
 					}
 				/>
+				<Route
+					path='/about'
+					element={
+						<AboutPage />
+					}
+				exact/>
 			</Routes>
 		</div>
 	);

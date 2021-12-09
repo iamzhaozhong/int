@@ -1,4 +1,5 @@
 import * as React from 'react';
+import logo from '../assets/logo.svg';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -7,45 +8,38 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import { CardMedia } from "@mui/material";
+import { NavLink } from 'react-router-dom';
 
-const pages = ['Products', 'Pricing', 'Blog'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = [<NavLink to='/about'>About</NavLink>
+	,'About','Game','Contact'];
 
 const Navigation = () => {
 	const [anchorElNav, setAnchorElNav] = React.useState(null);
-	const [anchorElUser, setAnchorElUser] = React.useState(null);
 
 	const handleOpenNavMenu = (event) => {
 		setAnchorElNav(event.currentTarget);
-	};
-	const handleOpenUserMenu = (event) => {
-		setAnchorElUser(event.currentTarget);
 	};
 
 	const handleCloseNavMenu = () => {
 		setAnchorElNav(null);
 	};
 
-	const handleCloseUserMenu = () => {
-		setAnchorElUser(null);
-	};
-
 	return (
 		<AppBar position='static'>
 			<Container maxWidth='xl'>
 				<Toolbar disableGutters>
-					<Typography
-						variant='h6'
-						noWrap
-						component='div'
-						sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}>
-						LOGO
-					</Typography>
-
+					<CardMedia
+						style={{
+							height: "175px",
+							width: "175px",
+							margin: "auto"
+						}}
+						component="img"
+						image={logo}
+					/>
 					<Box
 						sx={{
 							flexGrow: 1,
@@ -81,23 +75,13 @@ const Navigation = () => {
 								<MenuItem
 									key={page}
 									onClick={handleCloseNavMenu}>
-									<Typography textAlign='center'>
+									<Typography variant="h5" textAlign='center'>
 										{page}
 									</Typography>
 								</MenuItem>
 							))}
 						</Menu>
 					</Box>
-					<Typography
-						variant='h6'
-						noWrap
-						component='div'
-						sx={{
-							flexGrow: 1,
-							display: { xs: 'flex', md: 'none' },
-						}}>
-						LOGO
-					</Typography>
 					<Box
 						sx={{
 							flexGrow: 1,
@@ -111,48 +95,13 @@ const Navigation = () => {
 									my: 2,
 									color: 'white',
 									display: 'block',
+									margin: '40px',
 								}}>
-								{page}
+								<Typography variant="h6" textAlign='center'>
+									{page}
+								</Typography>
 							</Button>
 						))}
-					</Box>
-
-					<Box sx={{ flexGrow: 0 }}>
-						<Tooltip title='Open settings'>
-							<IconButton
-								onClick={handleOpenUserMenu}
-								sx={{ p: 0 }}>
-								<Avatar
-									alt='Remy Sharp'
-									src='/static/images/avatar/2.jpg'
-								/>
-							</IconButton>
-						</Tooltip>
-						<Menu
-							sx={{ mt: '45px' }}
-							id='menu-appbar'
-							anchorEl={anchorElUser}
-							anchorOrigin={{
-								vertical: 'top',
-								horizontal: 'right',
-							}}
-							keepMounted
-							transformOrigin={{
-								vertical: 'top',
-								horizontal: 'right',
-							}}
-							open={Boolean(anchorElUser)}
-							onClose={handleCloseUserMenu}>
-							{settings.map((setting) => (
-								<MenuItem
-									key={setting}
-									onClick={handleCloseNavMenu}>
-									<Typography textAlign='center'>
-										{setting}
-									</Typography>
-								</MenuItem>
-							))}
-						</Menu>
 					</Box>
 				</Toolbar>
 			</Container>
