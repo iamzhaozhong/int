@@ -11,7 +11,7 @@ import Mars from './pages/Mars/Mars';
 import Jupiter from './pages/Jupiter/Jupiter';
 import Saturn from './pages/Saturn/Saturn';
 import Uranus from './pages/Uranus/Uranus';
-import Neptune from './pages/Neptune/Neptune';
+import NameAStar from "./pages/NameAStar";
 import KeyVisual from './components/KeyVisual/KeyVisual';
 
 const App = () => {
@@ -31,14 +31,18 @@ const App = () => {
 						<Route exact path='/monday'>
 							<Mercury />
 						</Route>
-						<Route exact path='/friday'>
-							<Venus />
+						<Route exact path='/tuesday'>
+							<Mars />
 						</Route>
+
 						<Route exact path='/wednesday'>
 							<Earth />
 						</Route>
 						<Route exact path='/thursday'>
 							<Jupiter />
+						</Route>
+						<Route exact path='/friday'>
+							<Venus />
 						</Route>
 						<Route exact path='/saturday'>
 							<Saturn />
@@ -46,8 +50,8 @@ const App = () => {
 						<Route exact path='/sunday'>
 							<Uranus />
 						</Route>
-						<Route exact path='/neptune'>
-							<Neptune />
+						<Route exact path='/new'>
+							<NameAStar />
 						</Route>
 						<Route exact path='/'>
 							<KeyVisual activePlanet={activePlanet} />

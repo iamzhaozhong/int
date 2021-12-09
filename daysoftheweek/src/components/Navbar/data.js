@@ -49,4 +49,11 @@ export const planets = [
         color: 'hsl(168, 82%, 67%)',
         sectionColor: 'hsl(169, 73%, 44%)',
     },
+    {
+        id: 7,
+        name: 'NAME A STAR',
+        path: '/new',
+        color: 'hsl(0,0%,100%)',
+        sectionColor: 'hsl(0,0%,100%)',
+    },
 ];
